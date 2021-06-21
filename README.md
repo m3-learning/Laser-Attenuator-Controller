@@ -15,7 +15,7 @@ All designs and code by: Ryan Forelli
 -   1x ATmega328P AVR microcontroller
 -   1x Male & female pin header set
 -   1x through hole pushbutton
--   16 MHz crystal oscillator
+-   1x 16 MHz crystal oscillator
 -   2x 22pF ceramic capacitors
 -   1x 10uF electrolytic capacitor
 -   1x 100uF electrolytic capacitor
