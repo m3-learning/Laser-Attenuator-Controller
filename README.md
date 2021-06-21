@@ -37,8 +37,8 @@ All designs and code by: Ryan Forelli
 
 
 ## Installation Notes
--   Supply PCB with 5V supply from USB to TTL Adapter.
--   Supply Stepper motor controller and relay with 24V supply from Multi-Target Carousel Controller or other source.
+-   Supply PCB with 5V from USB to TTL Adapter.
+-   Supply stepper motor controller and relay with 24V.
 
 <!-- ## Usage Instructions
 -   Power PLD Controller module
