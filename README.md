@@ -15,7 +15,7 @@ All designs and code by: Ryan Forelli
 -   1x ATmega328P AVR microcontroller
 -   1x Male & female pin header set
 -   1x through hole pushbutton
--   16 MHz crystal oscillator
+-   1x 16 MHz crystal oscillator
 -   2x 22pF ceramic capacitors
 -   1x 10uF electrolytic capacitor
 -   1x 100uF electrolytic capacitor
@@ -37,8 +37,8 @@ All designs and code by: Ryan Forelli
 
 
 ## Installation Notes
--   Supply PCB with 5V supply from USB to TTL Adapter.
--   Supply Stepper motor controller and relay with 24V supply from Multi-Target Carousel Controller or other source.
+-   Supply PCB with 5V from USB to TTL Adapter.
+-   Supply stepper motor controller and relay with 24V.
 
 <!-- ## Usage Instructions
 -   Power PLD Controller module
