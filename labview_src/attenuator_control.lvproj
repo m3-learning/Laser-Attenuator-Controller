@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="atten_control.vi" Type="VI" URL="../atten_control.vi"/>
+		<Item Name="attenuator_control.vi" Type="VI" URL="../attenuator_control.vi"/>
 		<Item Name="laser_m3_logo.ico" Type="Document" URL="../assets/laser_m3_logo.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -53,12 +53,12 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Laser Attenuator Controller" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{5F3EEEBA-5E90-45BC-B157-84333CB8E41D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{92FB9A3F-88E3-4EF0-AA5C-F114A7656EC1}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B6938C4F-FADC-42AB-AA1C-E4099D4FDA02}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D14D9544-C725-4272-91BB-00F81915C15C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{0302D3E2-7EE2-4243-814F-633C28086FFE}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{A32F4921-08B4-4164-B1E2-9B0FBE8CE9FE}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Laser Attenuator Controller</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -66,21 +66,21 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Laser Attenuator Controller</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{85B9462A-E34A-490B-83F3-085570191185}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E17B11C9-F9C3-467A-B859-30E8E8C8E50E}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">attenuator_control.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Laser Attenuator Controller/attenuator_control.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">attenuator_controll.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Laser Attenuator Controller/attenuator_controll.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Laser Attenuator Controller/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/laser_m3_logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A3607525-68EF-4938-AFF0-0C293EE785BD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{89EA2B80-ADC6-4B33-B347-2FDC501BE03F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/atten_control.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/attenuator_control.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
@@ -91,8 +91,8 @@
 				<Property Name="TgtF_internalName" Type="Str">Laser Attenuator Controller</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Laser Attenuator Controller</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{C3B990B8-FE56-43FF-8C3B-F0DD6F995BB3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">attenuator_control.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{8B462CE3-4E8E-448E-976A-A46E6EFD771C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">attenuator_controll.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
