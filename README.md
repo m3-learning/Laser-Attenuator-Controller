@@ -33,7 +33,7 @@ All designs and code by: Ryan Forelli
 -   1x USB type B female port
 
 
-
+The program attenuator_control.exe can be used to communicate with the ATmega328p microcontroller to control the attenuator.
 
 
 ## Installation Notes
