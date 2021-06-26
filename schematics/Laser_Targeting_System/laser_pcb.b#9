@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:RUOQUI-MSresKJ4upGvurA" pcbguid="" lastpulledtime="2021-06-04T02:11:35Z" lastsyncedchangeguid="" latestrevisionid="b99edff9-62eb-4530-a6dc-ad79fc59f67f" lastsyncedrevisionid="b99edff9-62eb-4530-a6dc-ad79fc59f67f" lastboardhashguid="438711a7-8365-1941-03e9-268cf964c291" lastpushedtime="2021-06-04T02:13:58Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYTUzNGFl" projecturn="a.cGVyc29uYWw6dWUyYTUzNGFlIzIwMjEwNDE4NDA0MDk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:RUOQUI-MSresKJ4upGvurA" pcbguid="" lastpulledtime="2021-06-04T02:11:35Z" lastsyncedchangeguid="" latestrevisionid="c8176e88-c5ed-4f85-a3f5-44f3249f0af2" lastsyncedrevisionid="c8176e88-c5ed-4f85-a3f5-44f3249f0af2" lastboardhashguid="e379ca65-9450-d053-3500-0f61ddf545ba" lastpushedtime="2021-06-04T02:16:28Z" linktopcb3d="true"/>
 <plain>
 <text x="43.942" y="21.844" size="2.1844" layer="21" rot="R90">M</text>
 <text x="42.418" y="24.13" size="1.143" layer="21" rot="R90">3</text>
@@ -182,18 +182,6 @@
 <text x="37.592" y="54.864" size="0.6096" layer="22" rot="MR0">Principal Investigator: Professor Joshua C. Agar.</text>
 <text x="37.592" y="54.102" size="0.6096" layer="22" rot="MR0">Released under BSD-3 License.</text>
 <text x="38.608" y="0.508" size="0.6096" layer="22" rot="MR0">Designed By: Ryan Forelli '24</text>
-<wire x1="20.852" y1="12.05" x2="20.852" y2="12.85" width="0" layer="20"/>
-<wire x1="20.852" y1="12.85" x2="23.852" y2="12.85" width="0" layer="20"/>
-<wire x1="23.852" y1="12.85" x2="23.852" y2="12.05" width="0" layer="20"/>
-<wire x1="23.852" y1="12.05" x2="20.852" y2="12.05" width="0" layer="20"/>
-<wire x1="20.852" y1="5.95" x2="20.852" y2="6.75" width="0" layer="20"/>
-<wire x1="20.852" y1="6.75" x2="23.852" y2="6.75" width="0" layer="20"/>
-<wire x1="23.852" y1="6.75" x2="23.852" y2="5.95" width="0" layer="20"/>
-<wire x1="23.852" y1="5.95" x2="20.852" y2="5.95" width="0" layer="20"/>
-<wire x1="26.552" y1="8.15" x2="26.552" y2="11.15" width="0" layer="20"/>
-<wire x1="26.552" y1="11.15" x2="27.352" y2="11.15" width="0" layer="20"/>
-<wire x1="27.352" y1="11.15" x2="27.352" y2="8.15" width="0" layer="20"/>
-<wire x1="27.352" y1="8.15" x2="26.552" y2="8.15" width="0" layer="20"/>
 <wire x1="0" y1="2.286" x2="2.286" y2="0" width="0" layer="20"/>
 <wire x1="2.286" y1="0" x2="43.514" y2="0" width="0" layer="20"/>
 <wire x1="45.8" y1="2.286" x2="43.514" y2="0" width="0" layer="20"/>
@@ -2200,7 +2188,6 @@ design rules under a new name.</description>
 <wire x1="34.29" y1="15.24" x2="34.417" y2="15.367" width="0.1524" layer="16"/>
 <wire x1="34.417" y1="15.367" x2="36.83" y2="17.78" width="0.1524" layer="16"/>
 <wire x1="36.83" y1="17.78" x2="36.83" y2="20.32" width="0.1524" layer="16"/>
-<wire x1="27.94" y1="10.638" x2="26.952" y2="9.65" width="0.1524" layer="1"/>
 <wire x1="22.352" y1="6.35" x2="25.652" y2="9.65" width="0.1524" layer="1"/>
 <wire x1="25.652" y1="9.65" x2="26.952" y2="9.65" width="0.1524" layer="1"/>
 <wire x1="22.352" y1="6.35" x2="6.35" y2="6.35" width="0.1524" layer="1"/>
@@ -2221,7 +2208,7 @@ design rules under a new name.</description>
 <wire x1="4.0894" y1="30.1117625" x2="2.54" y2="28.5623625" width="0.1524" layer="1"/>
 <wire x1="33.785925" y1="15.367" x2="34.417" y2="15.367" width="0.1524" layer="16"/>
 <wire x1="32.160325" y1="16.9926" x2="33.785925" y2="15.367" width="0.1524" layer="16"/>
-<wire x1="29.6926" y1="16.9926" x2="32.160325" y2="16.9926" width="0.1524" layer="16"/>
+<wire x1="29.718" y1="16.9926" x2="32.160325" y2="16.9926" width="0.1524" layer="16"/>
 <wire x1="34.29" y1="15.24" x2="36.342" y2="13.188" width="0.1524" layer="16"/>
 <wire x1="36.342" y1="13.188" x2="36.342" y2="10.668" width="0.1524" layer="16"/>
 <wire x1="38.1" y1="30.48" x2="38.1" y2="28.74813125" width="0.1524" layer="16"/>
@@ -2252,8 +2239,10 @@ design rules under a new name.</description>
 <contactref element="STEPPER_DRIVER1" pad="15"/>
 <wire x1="16.64516875" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="16"/>
 <wire x1="29.23" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="16"/>
-<wire x1="29.6926" y1="16.9926" x2="27.94" y2="15.24" width="0" layer="19" extent="16-16"/>
-<wire x1="27.94" y1="10.638" x2="27.94" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="26.952" y1="9.65" x2="26.952" y2="14.252" width="0.1524" layer="1"/>
+<wire x1="26.952" y1="14.252" x2="27.94" y2="15.24" width="0.1524" layer="1"/>
+<wire x1="27.94" y1="15.24" x2="29.6926" y2="16.9926" width="0.1524" layer="16"/>
+<wire x1="29.6926" y1="16.9926" x2="29.718" y2="16.9926" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="Q1" pad="2"/>

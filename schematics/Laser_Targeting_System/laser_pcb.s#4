@@ -6828,8 +6828,8 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="199.39" y="5.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="199.39" y="5.08" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="1" x="289.56" y="86.36" smashed="yes">
-<attribute name="VALUE" x="287.02" y="81.28" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="287.02" y="86.36" smashed="yes">
+<attribute name="VALUE" x="284.48" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+4" gate="1" x="266.7" y="86.36" smashed="yes">
 <attribute name="VALUE" x="271.78" y="83.82" size="1.778" layer="96" rot="R90"/>
@@ -7082,11 +7082,11 @@ general purpose rectifier, 1 A</description>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="STEPPER_DRIVER1" gate="G$1" pin="VDD"/>
-<wire x1="289.56" y1="83.82" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="45.72" x2="289.56" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="25.4" x2="190.5" y2="25.4" width="0.1524" layer="91"/>
-<junction x="289.56" y="45.72"/>
-<wire x1="231.14" y1="45.72" x2="289.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="83.82" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="45.72" x2="287.02" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="25.4" x2="190.5" y2="25.4" width="0.1524" layer="91"/>
+<junction x="287.02" y="45.72"/>
+<wire x1="231.14" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="81.28" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="D1" gate="1" pin="A"/>
 <wire x1="231.14" y1="68.58" x2="231.14" y2="45.72" width="0.1524" layer="91"/>
