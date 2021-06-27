@@ -33,7 +33,7 @@ All designs and code by: Ryan Forelli
 -   1x USB type B female port
 
 
-
+Our open source PCB and firmware can be used to control an attenuator controller to adjust the power output of a laser for applications such as pulsed laser deposition. The program attenuator_control.exe can be used to communicate with the ATmega328p microcontroller to control the attenuator. The LabVIEW and C++ source code is available in the repository.
 
 
 ## Installation Notes
