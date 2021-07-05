@@ -4,19 +4,20 @@
 /*
  * By: Ryan Forelli
  * M3 Learning group
- * Current setup has ~3700 steps per degree (with MS 1, 2, and 3 set high)
+ * Current setup has ~3538 steps per degree (with MS 1, 2, and 3 set high)
  * Default speed is 5 deg/sec
 */
 
-unsigned long steps_rotate_per_rev = 1332000;              //Steps required for one revolution
+unsigned long steps_rotate_per_rev = 1273808;              //Steps required for one revolution
 unsigned long max_angle = 90;                              //Maximum allowed angle for attenuator
-int steps_per_deg = 3700;                                  //Steps per degree
+int steps_per_deg = 3538;                                  //Steps per degree
 unsigned long steps_max_angle = max_angle * steps_per_deg; //Steps to maximum angle
 
 float curr_angle = 0;                                      //Current angle
 float dest_angle = -1;                                     //Destination angle
 float angle_rotate = -1;                                   //Degrees to rotate to reach destination angle
 unsigned long steps_rotate;                                //Steps to rotate to reach destination
+unsigned long calibration_counter = 0;
 
 char command;                                              //Command from user
 
@@ -62,7 +63,8 @@ void loop(){
                 angle_rotate = abs(curr_angle - dest_angle);
                 setDirection(((curr_angle - dest_angle) > 0));
                 curr_angle = dest_angle;
-                steps_rotate = map(angle_rotate, 0, max_angle, 0, steps_max_angle);
+                //steps_rotate = map(angle_rotate, 0, max_angle, 0, steps_max_angle);
+                steps_rotate = (angle_rotate / max_angle) * steps_max_angle;
                 Serial.println('\0');
                 for(int i=0;i<steps_rotate;i++){
                     STEP;
@@ -76,6 +78,7 @@ void loop(){
         }case 'o':{ //Home the attenuator
             setDirection(CW);
             while (1){
+                Serial.println('\0');
                 if (digitalRead(HOME_SWITCH)){
                     curr_angle = 0;
                     break;
@@ -88,6 +91,19 @@ void loop(){
             break;
         }case 'g':{ //Block laser
             BLOCK_LASER;
+            break;
+        }case 'c':{ //Calibrate angle
+            //Manually adjust attenuator to desired maximum angle, enter "c" command to the serial monitor and note the number of steps printed and change steps_per_deg and max_angle accordingly. Reupload code.
+            setDirection(CW);
+            while (1){
+                if (digitalRead(HOME_SWITCH)){
+                    Serial.println(calibration_counter);
+                    calibration_counter = 0;
+                    break;
+                }
+                STEP;
+                calibration_counter++;
+            }
             break;
         }default:
             break;
